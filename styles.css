@@ -1,0 +1,20 @@
+html{
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header-links{
+    display: flex;
+}
+.title-header{
+    display: flex;
+}
+.pictures img{
+    width:20%;
+}
