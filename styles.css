@@ -4,20 +4,57 @@ html{
 body{
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 .header{
     display: flex;
     justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 15px;
 }
 .header-links{
     display: flex;
+    gap: 15px;
 }
 .title-header{
     display: flex;
+    padding: 80px;
+    gap: 15px;
 }
-.pictures img{
+.title-header-written{
+    flex: 1;
+}
+.image-placeholder {
+    flex: 1;
+    background-color: rgba(174, 133, 133, 0.47);
+    text-align: center;
+    align-self: center;
+}
+.overview-title{
+    text-align: center;
+}
+.pictures>img, .description>div{
     width:20%;
 }
+.pictures, .description{
+    display: flex;    
+    justify-content: center;
+    gap: 15px;
+}
+.pictures img{
+    border:3px solid #3882f6;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
 /* Below only (background-)color and font-size/weight */
 .header, .title-header, .footer {
     background-color: #1f2937;
