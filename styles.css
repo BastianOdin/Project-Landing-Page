@@ -1,5 +1,5 @@
 html{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: roboto;
 }
 body{
     display: flex;
@@ -38,8 +38,8 @@ body{
     
 }
 .overview{
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
     padding-bottom: 60px;
 }
 .overview-title{
@@ -70,8 +70,8 @@ body{
 .action{
     margin-top:50px;
     margin-bottom:50px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
     padding-top:25px;
     padding-bottom:25px;
     padding-left: 50px;
@@ -85,7 +85,9 @@ body{
     padding-left: 30px;
     padding-right: 30px;
 }
-
+.footer{
+    text-align: center;
+}
 
 
 
